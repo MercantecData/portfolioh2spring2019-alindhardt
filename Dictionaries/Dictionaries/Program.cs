@@ -10,6 +10,7 @@ namespace Dictionaries
     {
         static void Main(string[] args)
         {
+            //- Lav et dictionary der kan gemme tal, og bruge strings som key. Gem 10 forskellige værdier heri.
             var textNumberDictionary = new Dictionary<string, int>()
             {
                 { "Ti", 10},
@@ -24,6 +25,7 @@ namespace Dictionaries
                 { "Hundrede", 100}
             };
 
+            //- Lav et dictionary der kan gemme booleans og bruge float som key. Gem 10 forskellige værdier heri.
             var floatBooleanDictionary = new Dictionary<float, bool>()
             {
                 { 1.1F, true},
@@ -38,12 +40,13 @@ namespace Dictionaries
                 { 2.0F, false},
             };
 
-            var h2ObjectOrientedProg = new Dictionary<string, int>()
+            // - BONUS: Lav en klasse der kan gemme et navn og en alder på en person. Lav et dictionary som bruger denne klasse som key. 
+            var h2ObjectOrientedProg = new Dictionary<Person, Role>()
             {
-                { "Andreas", 25},
-                { "Aputsiaq", 27},
-                { "Kasper", 20},
-                { "Mads", 29}
+                { new Person("Andreas", 25), Role.Student},
+                { new Person("Aputsiaq", 27), Role.Student},
+                { new Person("Kasper", 20), Role.Student},
+                { new Person("Mads", 29), Role.Teacher}
             };
         }
     }
