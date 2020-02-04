@@ -1,2 +1,3 @@
 Færdige opgaver:
-Dictionaries
+Dictionaries (Bonus opgave lavet forkert. Laver igen nu.)
+Overloading
