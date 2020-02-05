@@ -43,15 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Button.cs" />
-    <Compile Include="Controller.cs" />
-    <Compile Include="MyDelegates\ButtonPress.cs" />
-    <Compile Include="MyDelegates\KeyPress.cs" />
-    <Compile Include="MyEnums\Keybind.cs" />
-    <Compile Include="MyEnums\PowerState.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Television.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
