@@ -10,6 +10,7 @@ namespace Delegates
     {
         static void Main(string[] args)
         {
+            var controller = new Controller("XM100", "HP");;
         }
     }
 }

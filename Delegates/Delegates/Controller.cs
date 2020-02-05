@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Delegates.MyDelegates;
+using Delegates.MyEnums;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,18 +15,17 @@ namespace Delegates
             ModelName = modelName;
             Manufacturer = manufacturer;
 
-            Buttons = new Button[]
-            {
-                new Button("Power"),
-                new Button("Volume Up"),
-                new Button("Volume Down"),
-                new Button("Channel Up"),
-                new Button("Channel Down")
-            };
+            Button1.Press(PressingButton);
         }
 
         public string ModelName { get; private set; }
         public string Manufacturer { get; private set; }
-        public Button[] Buttons { get; private set; }
+        public Button Button1 { get; set; } = new Button("Button1");
+        public Button Button2 { get; set; }
+
+        public void PressingButton()
+        {
+            Console.WriteLine("Me, {0} from {1} is pressing you!", ModelName, Manufacturer);
+        }
     }
 }
