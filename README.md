@@ -4,3 +4,4 @@ Overloading<br>
 Delegates<br>
 Lambda Expressions<br>
 Nedarvning
+Abstract classes og interfaces

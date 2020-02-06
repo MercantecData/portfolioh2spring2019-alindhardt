@@ -1,0 +1,20 @@
+Abstract classes:
+Man kan inherit en abstract class, men man kan ikke lave instance af det.
+
+Abstract class Kan indeholde:
+Properties/fields
+Methods
+Abstract methods
+
+
+Abstract methods:
+En abstract method er en method som skal overrides, af alle subclasses der bruger den.
+Abstract method skal laves i en abstract class, man kan ikke lave dem i en almendelig class.
+
+
+Interfaces:
+Navn konvention: Skal starte med stor bogstav, og prefixes med stor 'i'. f.eks. 'IJumpeble'.
+En class kan anvende flere interfaces.
+Man definerer ikke accesss modifiers i en interface, da alt er public
+Interfaces kan ikke indeholde Properties/fields eller methods.
+Et interface definerer hvilke methods der skal være i classes.
