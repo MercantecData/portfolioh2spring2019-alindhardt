@@ -47,6 +47,7 @@
     <Compile Include="Models\Circle.cs" />
     <Compile Include="Models\ICopyAndPastetable.cs" />
     <Compile Include="Models\Paper.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Models\Shape.cs" />
     <Compile Include="Models\Square.cs" />
     <Compile Include="Models\Triangle.cs" />
