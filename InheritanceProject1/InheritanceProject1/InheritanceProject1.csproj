@@ -48,6 +48,7 @@
     <Compile Include="Models\Desktop.cs" />
     <Compile Include="Models\Laptop.cs" />
     <Compile Include="Models\Motherboard.cs" />
+    <Compile Include="Models\Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
