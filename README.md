@@ -1,7 +1,9 @@
-<h1>Færdige opgaver</h1>
-Dictionaries<br>
-Overloading<br>
-Delegates<br>
-Lambda Expressions<br>
-Nedarvning
-Abstract classes og interfaces
+# Færdige opgaver
+***
+*Dictionaries
+*Overloading
+*Delegates
+*Lambda Expressions
+*Nedarvning
+*Abstract classes og interfaces
+*Library
