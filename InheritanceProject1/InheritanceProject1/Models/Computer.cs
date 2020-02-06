@@ -24,5 +24,10 @@ namespace InheritanceProject1.Models
         public Motherboard Motherboard { get; private set; }
         public CPU CPU { get; private set; }
         public bool PoweredOn { get; private set; }
+
+        public void ChangePowerState()
+        {
+            PoweredOn = PoweredOn ? false : true;
+        }
     }
 }
