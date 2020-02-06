@@ -8,9 +8,9 @@ namespace AbstractAndInterfacesProject.Models
 {
     public class Circle : Shape
     {
-        public override void Draw()
+        public Circle()
         {
-            var text = @"
+            Drawing = @"
         , - ~ ~ ~ - ,
      , '               ' ,
    ,                       ,
@@ -24,7 +24,11 @@ namespace AbstractAndInterfacesProject.Models
        ' - , _ _ _ ,  '
 
 ";
-            Console.WriteLine(text);
+        }
+
+        public override void Draw()
+        {
+            Console.WriteLine(Drawing);
         }
     }
 }

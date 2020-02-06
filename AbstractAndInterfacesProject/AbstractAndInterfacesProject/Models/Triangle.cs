@@ -8,9 +8,9 @@ namespace AbstractAndInterfacesProject.Models
 {
     public class Triangle : Shape
     {
-        public override void Draw()
+        public Triangle()
         {
-            var text = @"
+            Drawing = @"
  _        _                   _      
 | |      (_)                 | |     
 | |_ _ __ _  __ _ _ __   __ _| | ___ 
@@ -20,7 +20,11 @@ namespace AbstractAndInterfacesProject.Models
                          __/ |       
                         |___/       
 ";
-            Console.WriteLine(text);
+        }
+
+        public override void Draw()
+        {
+            Console.WriteLine(Drawing);
         }
     }
 }

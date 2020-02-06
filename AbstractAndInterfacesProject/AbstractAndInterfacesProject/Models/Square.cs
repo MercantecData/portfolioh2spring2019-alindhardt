@@ -8,13 +8,16 @@ namespace AbstractAndInterfacesProject.Models
 {
     public class Square : Shape
     {
-        public override void Draw()
+        public Square()
         {
-            var text = @"
+            Drawing = @"
  _
 |_|
 ";
-            Console.WriteLine(text);
+        }
+        public override void Draw()
+        {
+            Console.WriteLine(Drawing);
         }
     }
 }
