@@ -14,7 +14,7 @@ namespace InheritanceProject1.Models
         /// <param name="manufacturer">The name of the computer manufacturer</param>
         /// <param name="cpuMhz">The number of Mhz in the computer's CPU</param>
         /// <param name="cpuCores">The number of cores in the computer's CPU</param>
-        public Computer(string manufacturer, int cpuMhz, int cpuCores)
+        public Computer(string manufacturer, float cpuMhz, int cpuCores)
         {
             Manufacturer = manufacturer;
             CPU = new CPU(cpuMhz, cpuCores);

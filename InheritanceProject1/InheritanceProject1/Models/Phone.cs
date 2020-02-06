@@ -8,7 +8,7 @@ namespace InheritanceProject1.Models
 {
     public class Phone : Computer
     {
-        public Phone(string manufacturer, int cpuMhz, int cpuCores) : base(manufacturer, cpuMhz, cpuCores)
+        public Phone(string manufacturer, float cpuMhz, int cpuCores) : base(manufacturer, cpuMhz, cpuCores)
         {
 
         }

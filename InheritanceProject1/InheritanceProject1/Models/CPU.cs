@@ -8,13 +8,13 @@ namespace InheritanceProject1.Models
 {
     public class CPU
     {
-        public CPU(int mhz, int cores)
+        public CPU(float mhz, int cores)
         {
             Mhz = mhz;
             Cores = cores;
         }
 
-        public int Mhz { get; private set; }
+        public float Mhz { get; private set; }
         public int Cores { get; private set; }
     }
 }

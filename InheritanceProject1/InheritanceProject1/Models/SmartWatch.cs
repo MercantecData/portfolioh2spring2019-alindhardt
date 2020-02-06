@@ -8,7 +8,7 @@ namespace InheritanceProject1.Models
 {
     public class SmartWatch : Computer
     {
-        public SmartWatch(string manufacturer, int cpuMhz, int cpuCores) : base(manufacturer, cpuMhz, cpuCores)
+        public SmartWatch(string manufacturer, float cpuMhz, int cpuCores) : base(manufacturer, cpuMhz, cpuCores)
         {
 
         }

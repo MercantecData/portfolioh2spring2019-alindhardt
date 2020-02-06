@@ -14,7 +14,7 @@ namespace InheritanceProject1.Models
         /// <param name="manufacturer"></param>
         /// <param name="cpuMhz"></param>
         /// <param name="cpuCores"></param>
-        public Desktop(string manufacturer, int cpuMhz, int cpuCores) : base(manufacturer, cpuMhz, cpuCores)
+        public Desktop(string manufacturer, float cpuMhz, int cpuCores) : base(manufacturer, cpuMhz, cpuCores)
         {
 
         }
