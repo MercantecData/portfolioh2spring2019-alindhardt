@@ -8,8 +8,15 @@ namespace AbstractAndInterfacesProject
 {
     class Program
     {
+        [STAThread]
         static void Main(string[] args)
         {
+            var triangle = new Models.Triangle();
+            //Abstract method from Shape.cs
+            triangle.Draw();
+
+            //Abstract method from ICopyAndPastetable.cs
+            triangle.Copy();
         }
     }
 }
