@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Models\Circle.cs" />
     <Compile Include="Models\Shape.cs" />
     <Compile Include="Models\Triangle.cs" />
     <Compile Include="Program.cs" />
