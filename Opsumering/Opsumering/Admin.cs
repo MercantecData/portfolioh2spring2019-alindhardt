@@ -4,8 +4,13 @@ using System.Text;
 
 namespace Opsumering
 {
-    public class Admin
+    public class Admin : User
     {
+        public Admin(string login, string password, Job job) : base(login, password, job)
+        {
+
+        }
+
         public void ChangePassword(User user, string password)
         {
             Console.WriteLine("{0} please change password to {1}", user.Login, password);
