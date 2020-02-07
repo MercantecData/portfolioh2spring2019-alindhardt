@@ -19,6 +19,10 @@ namespace Opsumering
 
         public bool IsAdmin()
         {
+            if(this is Admin)
+            {
+                return true;
+            }
             return false;
         }
     }
