@@ -18,6 +18,7 @@ namespace Opsumering
         /// <param name="password">The new password.</param>
         public void ChangePassword(User user, string password)
         {
+            //attempt password change.
             if(user.ChangePassword(this, this.password, password))
             {
                 Console.WriteLine("Successfully changed password.");

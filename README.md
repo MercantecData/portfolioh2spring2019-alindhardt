@@ -6,3 +6,4 @@
 * Nedarvning
 * Abstract classes og interfaces
 * Library
+* Opsumering
