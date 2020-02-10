@@ -4,14 +4,17 @@ using System.Text;
 
 namespace Opsumering
 {
+    public delegate List<Admin> ListOfValidAdminsDelegate();
     public class User
     {
         string password;
-        public User(string login, string password, Job job)
+        ListOfValidAdminsDelegate validAdminsDelegate;
+        public User(string login, string password, Job job, ListOfValidAdminsDelegate validAdminsDelegate)
         {
             Login = login;
             this.password = password;
             Job = job;
+            this.validAdminsDelegate = validAdminsDelegate;
         }
 
         public string Login { get; private set; }

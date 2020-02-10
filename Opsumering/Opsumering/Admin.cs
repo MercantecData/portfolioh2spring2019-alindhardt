@@ -6,7 +6,7 @@ namespace Opsumering
 {
     public class Admin : User
     {
-        public Admin(string login, string password, Job job) : base(login, password, job)
+        public Admin(string login, string password, Job job, ListOfValidAdminsDelegate validAdminsDelegate) : base(login, password, job, validAdminsDelegate)
         {
 
         }
