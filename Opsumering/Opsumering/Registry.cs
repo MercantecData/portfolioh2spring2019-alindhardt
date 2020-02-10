@@ -32,16 +32,14 @@ namespace Opsumering
         {
             //Check if Users has a match
             var userWithLoginAndPassword = Users
-                .Where(u => u.Login == login)
-                .Where(u => u.Password == password)
+                .Where(u => u.Login == login && u.CheckPassword(password))
                 .FirstOrDefault();
 
             //If no matches where found in Users, check Admins
             if (userWithLoginAndPassword == null)
             {
                 userWithLoginAndPassword = Admins
-                    .Where(u => u.Login == login)
-                    .Where(u => u.Password == password)
+                    .Where(u => u.Login == login && u.CheckPassword(password))
                     .FirstOrDefault();
             }
 

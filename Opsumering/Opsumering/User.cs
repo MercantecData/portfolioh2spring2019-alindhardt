@@ -6,15 +6,15 @@ namespace Opsumering
 {
     public class User
     {
+        string password;
         public User(string login, string password, Job job)
         {
             Login = login;
-            Password = password;
+            this.password = password;
             Job = job;
         }
 
         public string Login { get; private set; }
-        public string Password { get; private set; }
         public Job Job { get; private set; }
 
         public bool IsAdmin()
@@ -24,6 +24,10 @@ namespace Opsumering
                 return true;
             }
             return false;
+        }
+        public bool CheckPassword(string password)
+        {
+            return this.password == password ? true : false;
         }
     }
 }
